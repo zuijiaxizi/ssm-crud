@@ -14,3 +14,9 @@
 - 项目的依赖管理-Maven
 - 分页-pagehelper
 - 逆向工程-MyBatis Generator
+
+URL标准
+/emp/{id} 	GET请求	查询员工
+/emp			POST请求	保存员工
+/emp/{id}	 PUT请求	 修改员工
+/emp/{id}	 DELETE		删除员工
